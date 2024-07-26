@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.platform = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
   s.name              = 'EmptyStateKit'
   s.summary           = 'Beautiful, animated & fully customizable empty state view. A great way to engage and keep users whenever the view has no content to display.'
   s.description       = 'Empty states are actually a great way to engage, keep and delight users at critical moments. Use `EmptyStateKit` to make your app even more interesting and add a bit of fun to the UI interactions whenever the view has no content to display. Display awesome placeholder empty state in any UIView or UITableView/UICollectionView with refresh content features. It is super-useful to speed up a mobile development workflow due to its flexibility and ease of use.'
-  s.version           = '1.1.0'
+  s.version           = '0.0.2'
   
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.source            = { :git => 'https://github.com/alberdev/EmptyStateKit.git', :tag => s.version.to_s }
+  s.source            = { :git => 'https://github.com/lijunW/EmptyStateKit.git', :tag => s.version.to_s }
   
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
