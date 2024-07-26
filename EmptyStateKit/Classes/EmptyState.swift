@@ -25,7 +25,7 @@ public class EmptyState {
     public weak var dataSource: EmptyStateDataSource?
     
     private var emptyStateView: EmptyStateView!
-    private var tableView: UITableView?
+    private weak var tableView: UITableView?
     private var separatorStyle: UITableViewCell.SeparatorStyle = .none
     
     /// Show or hide view
